@@ -326,12 +326,15 @@ img{
     
     }
     .bi-1,.bi-2,.bi-3,.bi-4{
-        width: 180px;
-        height: 180px;
+        width: 160px;
+        height: 160px;
+        gap: 100px;
     }
     .container6{
-        gap: 1px;
-        padding: 0px 0px 0px 0px ;
+        gap: -10px;
+        width: 100%;
+      margin-left: -10px;
+      
 
     }
 }
@@ -350,7 +353,7 @@ img{
 @media screen and (min-width:650px) {
   .container6{
     margin-left: 560px; 
-   margin-right:10px;
+    margin-right:10px;
      gap: 8px;
    
   }
