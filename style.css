@@ -5,7 +5,15 @@
 }
  body{
     overflow-x: hidden;
+     margin: 0;
+     padding: 0;
+
  }
+ @media screen and (max-width:650px) {
+    body{
+        overflow-x: hidden;
+    }
+}
 
 .head{
     display:flex ;
@@ -26,6 +34,7 @@
      border: none;
      color: aqua;
      text-decoration: none;
+     width: 100%;
 }
 
 .header-img1{
@@ -36,11 +45,7 @@
     justify-content: center;
     margin-right: -40px;
 }
-@media screen and (max-width:650px) {
-     .header-img1{
-        margin-left: -110px;
-     }
-}
+
 a{
     text-decoration: none;
     color: black;
@@ -57,6 +62,7 @@ a{
     margin-right: -200px;
     text-decoration: none;
    }
+ 
 .container{
    width: 100%;
    height: 100vh;
@@ -92,17 +98,14 @@ a:hover{
 @media screen and (width < 650px) {
     .header1,.header2{
         display: none;
+        width: 100%;
     }
 
     .icon{
         display: flex;
         align-items: center;
-        margin-left: -110px;
+        
     }
-    .icon{
-        display: inline-block;
-    }
-
 }
 @media screen and (width < 650px) {
       .png{
@@ -320,16 +323,16 @@ img{
     .our{
         width:105%;
         height: 100%;
-     font-size: 2rem;
+        font-size: 2rem;
     
     }
     .bi-1,.bi-2,.bi-3,.bi-4{
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
     }
     .container6{
-        gap: 5px;
-        padding: 0px 20px ;
+        gap: 1px;
+        padding: 0px 0px 0px 0px ;
 
     }
 }
@@ -389,34 +392,41 @@ img{
   grid-template-columns: repeat(2 ,1fr);
   place-items: center;
   gap: 1em;
-  margin-left: 180px;
-  margin-right: 40px;
+  /* margin-left: 180px;
+  margin-right: 40px; */
+}
+.rt-1,.rt-2{
+    width: 100%px;
+    height: 300px;
+}
+.kl{
+    font-size: 20px;
 }
 @media screen and (max-width:650px) {
     .container4{
      display: grid;
      grid-template-columns: repeat(1 ,1fr);
-     margin-left: 20px;
-     margin-right:0px;
+     /* margin-left: 20px;
+     margin-right:0px; */
      gap: 2em;
     } 
     .rt-1,.rt-2{
         width: 300px;
         height: 250px;
-        margin-left: 2px;
-        margin-right: 2px;
+      
     }
-    h3{
+    .kt1{
+        font-size:15px
+    }
+    .kl{
+        font-size: 15px;
+        
+    }
+    .r-1{
+        font-size:15px ;
         padding: 5px;
-        font-size: 10px;
     }
-    h5{
-        font-size: 5px;
-    }
-    h6{
-        padding: 5px;
-    }
-    h6:hover{
+    .r-1:hover{
         background-color: white;
         color: red; 
         cursor: pointer;
