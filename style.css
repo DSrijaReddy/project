@@ -43,8 +43,7 @@
     border-radius: 200%;
     align-items: center;
     justify-content: center;
-    margin-right: -40px;
-}
+   margin-left: 10%;}
 
 a{
     text-decoration: none;
@@ -396,7 +395,7 @@ img{
   margin-right: 40px; */
 }
 .rt-1,.rt-2{
-    width: 100%px;
+    width: 400px;
     height: 300px;
 }
 .kl{
