@@ -333,6 +333,18 @@ img{
 
     }
 }
+.bi-1:hover{
+    transform: scale(1,1.1); 
+}
+.bi-2:hover{
+    transform: scale(1,1.1);
+}
+.bi-3:hover{
+    transform: scale(1,1.1);
+}
+.bi-4:hover{
+    transform: scale(1,1.1);
+}
 @media screen and (min-width:650px) {
   .container6{
     margin-left: 560px; 
@@ -551,7 +563,7 @@ i:hover{
     cursor: pointer;
 }
 span:hover{
-    background-color: red;
+    color: red;
     width: 200px;
 }
 @media screen and (max-width:650px){
