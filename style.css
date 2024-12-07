@@ -326,13 +326,13 @@ img{
     
     }
     .bi-1,.bi-2,.bi-3,.bi-4{
-        width: 160px;
-        height: 160px;
+        width: 190px;
+        height: 140px;
         gap: 100px;
     }
     .container6{
         gap: -10px;
-        width: 100%;
+        width: 80%;
       margin-left: -10px;
       
 
